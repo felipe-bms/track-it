@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Track It
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Track It é uma aplicação web para ajudar as pessoas a consolidar uma rotina de hábitos. Os usuários podem cadastrar novos hábitos, selecionar os dias da semana em que serão realizados e acompanhar o progresso diariamente.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Cadastro de Usuário**: Permite a criação de uma nova conta de usuário.
+- **Login de Usuário**: Permite que os usuários façam login na aplicação.
+- **Cadastro de Hábitos**: Os usuários podem cadastrar novos hábitos, especificando os dias da semana em que desejam realizá-los.
+- **Listagem de Hábitos**: Exibe os hábitos cadastrados pelo usuário.
+- **Marcar Hábitos como Feitos**: Os usuários podem marcar hábitos como concluídos para o dia atual.
+- **Desmarcar Hábitos como Feitos**: Os usuários podem desmarcar hábitos como não concluídos para o dia atual.
+- **Visualização de Hábitos Diários**: Exibe os hábitos do usuário para o dia atual, com a possibilidade de marcar/desmarcar como feitos.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Styled Components**: Biblioteca para estilização de componentes React utilizando tagged template literals.
+- **Axios**: Cliente HTTP baseado em Promises para fazer requisições HTTP.
+- **React Router DOM**: Biblioteca para controle de rotas na aplicação React.
+- **React Loader Spinner**: Biblioteca para exibir spinners de carregamento durante operações assíncronas.
+- **Date-fns**: Biblioteca para manipulação e formatação de datas.
+- **Material Icons**: Biblioteca de ícones do Material Design para React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Executar o Projeto
 
-### `npm test`
+### Pré-requisitos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js instalado
+- Gerenciador de pacotes npm ou yarn
 
-### `npm run build`
+### Passos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone o repositório:**
+    ```sh
+    git clone https://github.com/USERNAME/REPOSITORY_NAME.git
+    cd REPOSITORY_NAME
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Instale as dependências:**
+    ```sh
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ou
 
-### `npm run eject`
+    ```sh
+    yarn install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Execute o projeto:**
+    ```sh
+    npm start
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ou
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```sh
+    yarn start
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A aplicação estará disponível em `http://localhost:3000`.
 
-## Learn More
+## Estrutura do Projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **src**
+  - **assets**: Arquivos estáticos como imagens.
+  - **components**: Componentes reutilizáveis da aplicação.
+  - **contexts**: Contextos para gerenciamento de estado global.
+  - **pages**: Páginas principais da aplicação.
+  - **routes**: Configuração de rotas da aplicação.
+  - **styles**: Arquivos de estilização.
+  - **utils**: Funções utilitárias.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Autores
 
-### Code Splitting
+- Felipe Barreto Marques da Silva
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Licença
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
