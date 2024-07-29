@@ -1,5 +1,7 @@
 # Track It
 
+https://track-it-virid-gamma.vercel.app/
+
 Track It é uma aplicação web para ajudar as pessoas a consolidar uma rotina de hábitos. Os usuários podem cadastrar novos hábitos, selecionar os dias da semana em que serão realizados e acompanhar o progresso diariamente.
 
 ## Funcionalidades
